@@ -1,0 +1,11 @@
+/bin/
+/lib/
+/db/
+/dbd/
+/include/
+/configure/*.local
+O.*/
+iocBoot/iocfuncBlock/envPaths
+*.orig
+*.log
+.*.swp
