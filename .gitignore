@@ -5,7 +5,7 @@
 /include/
 /configure/*.local
 O.*/
-iocBoot/iocfuncBlock/envPaths
+iocBoot/iocextends/envPaths
 *.orig
 *.log
 .*.swp
