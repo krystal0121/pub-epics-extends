@@ -23,6 +23,7 @@ extendsSupport_SRCS += devXxxSoft.c
 extendsSupport_SRCS += dbSubExample.c
 extendsSupport_SRCS += extendsHello.c
 extendsSupport_SRCS += initTrace.c
+extendsSupport_SRCS += dbSubExtends.c
 
 extendsSupport_LIBS += $(EPICS_BASE_IOC_LIBS)
 
@@ -39,6 +40,7 @@ extends_DBD += xxxSupport.dbd
 extends_DBD += dbSubExample.dbd
 extends_DBD += extendsHello.dbd
 extends_DBD += initTrace.dbd
+extends_DBD += dbSubExtends.dbd
 
 # extends_registerRecordDeviceDriver.cpp derives from extends.dbd
 extends_SRCS += extends_registerRecordDeviceDriver.cpp
